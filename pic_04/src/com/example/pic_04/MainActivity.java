@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
 		public void onClick(View v) {
 
 			Resources r = getResources();
-			Bitmap bitmap = BitmapFactory.decodeResource(r, R.drawable.spring);
+			Bitmap bitmap = BitmapFactory.decodeResource(r, R.drawable.pic_01);
 			BitmapDrawable drawable = new BitmapDrawable(bitmap);
 			Img1.setImageDrawable(drawable);
 			Img1.setVisibility(View.VISIBLE);
@@ -61,7 +61,7 @@ public class MainActivity extends Activity {
 		public void onClick(View v) {
 
 			Resources r = getResources();
-			Bitmap bitmap = BitmapFactory.decodeResource(r, R.drawable.spring);
+			Bitmap bitmap = BitmapFactory.decodeResource(r, R.drawable.pic_01);
 			BitmapDrawable drawable = new BitmapDrawable(bitmap);
 			Img1.setImageDrawable(drawable);
 			

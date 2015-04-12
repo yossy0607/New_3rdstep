@@ -30,12 +30,10 @@
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="300px"
-        android:layout_height="300px"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_centerVertical="true"
-        android:baselineAlignBottom="false"
-        android:scaleType="fitXY"
-        android:src="@drawable/spring" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="41dp"
+        android:src="@drawable/pic_01" />
 
 </RelativeLayout>
